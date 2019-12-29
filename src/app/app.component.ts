@@ -25,4 +25,8 @@ export class AppComponent {
       content: bluPrintData.serverContent
     });
   }
+
+  onChangeFirst(){
+    this.serverElements[0].name = "Changed!";
+  }
 }
